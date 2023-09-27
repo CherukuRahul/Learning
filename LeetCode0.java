@@ -1,12 +1,13 @@
 //https://leetcode.com/problems/decoded-string-at-index/?envType=daily-question&envId=2023-09-27
 public class LeetCode0 {
     public static void main(String[] args) {
-        String s  = "a2345678999999999999999";
-        int k = 1;
+        String s  = "Leet2Code3";
+        int k = 10;
         String ans = "";
         String anss = decodeAtIndex(s, k,ans);
         System.out.println(anss);
         String realans = "leetleetcodeleetleetcodeleetleetcode";
+        System.out.println(realans.length());
         if(anss.equals(realans)){
             System.out.println("reakl");
         }
